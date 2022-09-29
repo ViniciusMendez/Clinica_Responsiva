@@ -167,3 +167,26 @@ footer .secao{
     padding: 10px 20px;
     text-decoration: none;
 }
+
+/*RESPOSIVE*/
+
+@media (max-width: 1024px){
+    .visao-geral{height: 400px;}
+}
+
+@media (max-width: 768px){
+    .visao-geral{height: 300px;}
+    .visao-sobre img{display: none;}
+    .visao-especialidades {justify-content: center;}
+    .visao-especialidade {
+        width: calc(100% / 2 - 40px);
+      }
+}
+
+@media (max-width: 425px){
+    .visao-geral { height: 200px;}
+    .visao-geral h1 { font-size: 28px;}
+    .visao-especialidade  {
+        width: 100%;
+      }
+}
