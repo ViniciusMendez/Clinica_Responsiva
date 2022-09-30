@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Especialidades</title>
     <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/estilo-espec.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <a href="index.html"><img src="img/logo.png" alt=""></a>
+    <header class="topo">
+        <div class="secao">
+            <div class="secao-topo">
+                <a href="index.html"><img class="logo-topo" src="img/logo.png" alt=""></a>
             </div> 
 
-            <nav>
+            <nav class="link-topo">
                 <a href="index.html#sobre">Sobre</a>
                 <a href="especialidades.html">Especialidades</a>
                 <a href="index.html#contato">Contato</a>
@@ -23,8 +24,8 @@
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="secao-link-especialidades" >
+            <div class="secao link-especialidades ">
                 <a href="#ortopedia">Ortopedia</a>
                 <a href="#pediatria">Pediatria</a>
                 <a href="#geriatria">Geriatria</a>
@@ -34,13 +35,13 @@
             <h1>Conheça as nossas especialidades</h1>
         </section>
 
-        <section id="ortopedia">
-            <div>
+        <section id="ortopedia" class="secao secao-especialidade">
+            <div class="secao-titulo">
                 <h3>Ortopedia</h3>
                 <p>A ortopedia é a especialidade médica que cuida da saúde relacionadas aos elementos do aparelho locomotor, como ossos, músculos, ligamentos e articulações.</p>
             </div>
 
-            <div>
+            <div class="visao-tabela-especialista">
                 <img src="img/ortopedia.png" alt="">
                 <table class="tabela-especialistas">
                     <thead>
@@ -71,9 +72,187 @@
             </div>
         </section>
 
-        <section id="pediatria">
+        <section id="pediatria" class="secao secao-especialidade">
+            <div class="secao-titulo">
+                <h3>Pediaria</h3>
+                <p>A pediatria é a especialidade médica dedicada à assistência à criança e ao adolescente, nos seus diversos aspectos, sejam eles preventivos ou curativos.</p>
+            </div>
 
+            <div class="visao-tabela-especialista">
+                <img src="img/pediatra2.png" alt="">
+                <table class="tabela-especialistas">
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horários</th>
+                            <th>Médico(a)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda e quartas</td>
+                            <td>8:00 às 15:00</td>
+                            <td>Dra. Elaine pinheiro</td>
+                          </tr>
+                          <tr>
+                            <td>Terça, Quinta e Sexta</td>
+                            <td>13:00 às 21:00</td>
+                            <td>Dr. Anderson Ramos</td>
+                          </tr>
+                          <tr>
+                            <td>Sábado</td>
+                            <td>8:00 às 12:00</td>
+                            <td>Dra. Manoela Foster</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="geriatria" class="secao secao-especialidade">
+            <div class="secao-titulo">
+                <h3>Geriatrias</h3>
+                <p>Medicina geriátrica ou geriatria é o ramo da medicina que foca o estudo, a prevenção e o tratamento de doenças e da incapacidade em idades avançadas.</p>
+            </div>
+
+            <div class="visao-tabela-especialista">
+                <img src="img/geriatra.png" alt="">
+
+                <table class="tabela-especialistas">
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horários</th>
+                            <th>Médico(a)</th>
+                          </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda e quinta</td>
+                            <td>9:00 às 12:00</td>
+                            <td>Dr. Antônio Freitas</td>
+                          </tr>
+                          <tr>
+                            <td>Terça e Quarta</td>
+                            <td>9:00 às 16:00</td>
+                            <td>Dr. Alfred Conceição</td>
+                          </tr>
+                          <tr>
+                            <td>Sexta</td>
+                            <td>08:00 às 19:00</td>
+                            <td>Dr. Almir Aguiar</td>
+                          </tr>
+                          <tr>
+                            <td>Sábado</td>
+                            <td>08:00 às 14:00</td>
+                            <td>Dra. Andrea Almeida</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="psicologia" class="secao secao-especialidade">
+            <div class="secao-titulo">
+                <h3>Psicologia</h3>
+                <p>Psicologia é a especialidade médica que trata da mente, do estudo e análise de seus processos e comportamento de indivíduos e grupos humanos em diferentes situações</p>
+            </div>
+
+            <div class="visao-tabela-especialista">
+                <img src="img/psicologo.png" alt="">
+
+                <table class="tabela-especialistas">
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horários</th>
+                            <th>Médico(a)</th>
+                          </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda, terça e quarta</td>
+                            <td>8:00 às 21:00</td>
+                            <td>Dra. Diane Faguntes</td>
+                          </tr>
+                          <tr>
+                            <td>Quinta e Sexta</td>
+                            <td>14:00 às 18:00</td>
+                            <td>Dr. Daniel Dias</td>
+                          </tr>
+                          <tr>
+                            <td>Sábado</td>
+                            <td>10:00 às 15:00</td>
+                            <td>Dra. Beatriz Luz</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="fisioterapia" class="secao secao-especialidade">
+            <div class="secao-tutulo">
+                <h3>Fisioterapia</h3>
+                <p>Fisioterapia é uma ciência da saúde aplicada ao estudo, diagnóstico, prevenção e tratamento de disfunções cinéticas funcionais de órgãos e sistemas.</p>
+            </div>
+
+            <div class="visao-tabela-especialista">
+                <img src="img/fisioterapia.png" alt="">
+
+                <table class="tabela-especialistas">
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th>Horários</th>
+                            <th>Médico(a)</th>
+                          </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda e quinta</td>
+                            <td>11:00 às 20:00</td>
+                            <td>Dr. Alberto de Paula</td>
+                          </tr>
+                          <tr>
+                            <td>Segunda e quartas</td>
+                            <td>08:00 às 15:00</td>
+                            <td>Dra. Maria Fernades</td>
+                          </tr>
+                          <tr>
+                            <td>Terça e sexta</td>
+                            <td>14:00 às 21:00</td>
+                            <td>Dra. Elaine Peixoto</td>
+                          </tr>
+                          <tr>
+                            <td>Terça e quinta</td>
+                            <td>08:00 às 14:00</td>
+                            <td>Dra. Elaine Peixoto</td>
+                          </tr>
+                          <tr>
+                            <td>Quarta e Sábado</td>
+                            <td>8:00 às 21:00</td>
+                            <td>Dra. Bianca Rocha</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <div class="secao">
+            <img class="logo-topo" src="img/logo.png" alt="">
+
+            <p>Telefone e WhatsApp: (21) 99966-5555</p>
+        
+              <p>Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</p>
+        
+              <p> ©2020 Clínica Médica Life  - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
