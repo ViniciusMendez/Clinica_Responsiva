@@ -67,3 +67,26 @@
 .tabela-especialistas th, .tabela-especialistas td  {
     padding: 10px;
 }
+
+/*Resposinvidade*/
+
+@media (max-width: 768px){
+    .visao-tabela-especialista img{
+        display: none;
+    }
+
+    .tabela-especialistas{
+        width: 100%;
+    }
+
+    .visao-tabela-especialista{
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px){
+    .visao-tabela-especialista{
+        padding: 0;
+    }
+}
